@@ -1,0 +1,318 @@
+body
+{
+	/* Trying all background color except content box */
+	background-color: #ddd;
+	/* background-color: white; */
+
+	color: black;
+	margin: 0px;
+	font-family: 'Lucida Grande', 'Optima', 'Gill Sans', Geneva, Verdana, Arial, sans-serif;
+	/*font-weight: 100;*/
+	font-weight: regular;
+	font-size: 12px;
+}
+
+h1#top
+{
+	/* bar version
+	background-color: #adc3d6;
+	margin: 0;
+	padding: 10px;
+	border-bottom: black 1px solid;
+	/* */
+	/ * margin: 25px 50px 0 50px;
+	*/ padding: 10px;
+	/* border: black 1px solid; */
+	text-align: center;
+	font-size: 20px;
+	/* text-transform: lowercase; */
+	/*
+	width: 680px;
+	margin: 25px auto 0 auto;
+	*/
+	padding-left: 10px;
+}
+
+#menut
+{
+	margin: 0 auto 5px auto;
+	/*width: 680px;*/
+	width: 340px;
+	background-color: #ddd;
+}
+
+#menut td
+{
+	/*text-align: left; */
+	text-align: center;
+	padding: 0 0 0 10px;
+	vertical-align: top;
+	
+	width: 25%;
+}
+
+div#footer
+{
+	/* 7 July 2006 - This stuff is old, not sure where it came from */
+	/* padding: 2px; */
+	/* This is from the centered gray footer */
+	/*
+	background-color: #ddd;
+	border: black 1px solid;
+	margin: 20px auto 0 auto;
+	font-size: 10px;
+	text-align: center;
+	width: 680px;
+	*/
+	
+	/* This is for the transparent borderless background footer */
+	background-color: transparent;
+	font-size: 10px;
+	text-align: center;
+}
+
+div#menu
+{
+	/* 7 July 2006 - This stuff is old, not sure where it came from */
+	/* float: left; 
+	width: 100px; */
+	/* padding: 2px; */
+	/* text-align: center; */
+	/* This was for the centered gray rectangle header */
+	/*
+	background-color: #ddd;
+	border: black 1px solid;
+	margin: 20px auto 0 auto;
+	font-size: 14px;
+	width: 680px;
+	*/
+	
+	/* This is for the white borderless header */
+	font-size: 14px;
+	width: 100%;
+	border: none;
+	background-color: #ddd;
+	margin: 0px auto 0 auto;
+	padding: 10px 0;
+}
+
+div#menu a
+{
+	color: #333;
+	text-decoration: none;
+	/* text-align: right; */
+	/* */
+	/* text-transform: lowercase; */
+	padding: 5px 0 5px 0;
+}
+
+div#menu a:hover {
+	color: #999;
+}
+
+#menut td:hover
+{
+	/*background-color: silver;*/
+}
+
+div#content
+{
+	/* 7 July 2006 - This stuff is old, not sure where it's from.*/
+	/* bar version */
+	/* margin: 20px 50px 0px 170px; */
+	/*width:880px;*/
+	/* width: 80%; */
+	
+	/* This is the main part */
+	font-size: inherit;
+	/* Want the total width to be 900 - need to subtract padding width */
+	width: 880px;
+	padding: 10px;
+	border: black 1px solid;
+	/* The autos keep it centered */
+	margin: 25px auto 0 auto;
+	
+	/* Trying all background color except content box */
+	background-color: white;
+	
+}
+
+div#selection
+{
+	border: black 1px solid;
+	clear: none;
+	width: 20%;
+
+}
+
+div#seed 
+{
+border: black 1px solid;
+float: right;
+width: 20%;
+}
+
+div#content a
+{
+	color: blue;
+	/*background-color: #B5D1E8; */
+	text-decoration: underline;
+}
+
+div#content a:hover 
+{
+	text-decoration: underline;
+}
+
+div#content a#more
+{
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+}
+
+div#content h2
+{
+	margin: 0 0 10px 0;
+	font-size: 12px;
+}
+
+div#content div.project
+{
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+	margin-top: 10px;
+	padding: 2px;
+}
+
+div#content div.project h3,h4 
+{
+	margin-top: 0;
+	font-size: 12px;
+}
+
+div#content div.project p
+{
+	margin-bottom: 0;
+}
+
+div#content div.bio
+{
+	font-size: inherit;
+	padding: 5px;
+}
+
+div#content div.contact
+{
+	font-size: 12px;
+	padding: 5px;
+}
+
+div#content div.links
+{
+	font-size: 12px;
+	padding: 5px;
+}
+
+div#content div.news
+{
+	font-size: 12px;
+	padding: 5px;
+}
+
+div#content div.courses
+{
+	font-size: 12px;
+	padding: 5px;
+}
+
+div#content div.course
+{
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+	margin-top: 10px;
+	padding: 2px;
+}
+
+div#content div.course h3 
+{
+	margin-top: 0;
+	font-size: 12px;
+}
+
+div#content div.course h4 
+{
+    /* until there is content, no extra space */
+	margin: 0;
+}
+
+div#content div.item
+{
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;
+	margin-top: 10px;
+	padding: 2px;
+}
+
+div#content div.item .date
+{
+	font-weight: bold;
+	display: block;
+}
+
+div#content div.cv 
+{
+	font-size: 12px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+div#content div.cv div.category div.company
+{
+	//border-width: 0 0 1px 0;
+	//border-style: none none dotted none;
+	padding-top: 5px;
+}
+
+div#content div.cv div.category h2
+{
+	margin: 5px 0 10px 0;
+	font-size: larger;
+}
+
+div#content div.cv div.category div h3 { font-size: 12px; margin: 0; }
+
+div#content div.cv div.category div li
+{
+	margin: 10px 50px 0 0;
+	//border: black 1px solid;
+	text-align: justify;
+}
+
+div#content div.cv div.category div h3.head
+{
+	border-top: black 1px dotted;
+	border-bottom: black 1px dotted;
+	padding: 5px 0 5px 0;
+}
+
+div#content div.cv div.category div h3.head span
+{
+	border-right: 1px solid;
+	padding: 0 0.66em 0 0.33em;
+}
+
+div#content div.cv div.category div h3.head span
+{
+font-weight: normal;
+}
+
+div#content div.cv div.category div h3.head span.period
+{
+/*float:right;*/
+/*border: none;*/
+}
+
